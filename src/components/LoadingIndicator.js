@@ -4,7 +4,7 @@ import { COLORS } from '../constants/colors';
 export default function LoadingIndicator({ message = 'Cargando...' }) {
   return (
     <View style={styles.container}>
-      <ActivityIndicator size="large" color={COLORS.accent} />
+      <ActivityIndicator size="large" color={COLORS.primary} />
       <Text style={styles.message}>{message}</Text>
     </View>
   );

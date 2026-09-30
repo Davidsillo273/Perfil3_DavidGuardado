@@ -12,8 +12,8 @@ export default function AppNavigator() {
       <Stack.Navigator
         initialRouteName="Student"
         screenOptions={{
-          headerStyle: { backgroundColor: COLORS.surface },
-          headerTintColor: COLORS.text,
+          headerStyle: { backgroundColor: COLORS.primary },
+          headerTintColor: '#FFFFFF',
           headerTitleStyle: { fontWeight: 'bold' },
         }}
       >

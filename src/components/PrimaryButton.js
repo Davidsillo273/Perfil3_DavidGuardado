@@ -14,12 +14,12 @@ export default function PrimaryButton({ title, onPress }) {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: COLORS.accent,
+    backgroundColor: COLORS.primary,
     paddingVertical: 14,
     paddingHorizontal: 32,
-    borderRadius: 30,
+    borderRadius: 8,
     alignItems: 'center',
   },
   pressed: { opacity: 0.8 },
-  text: { color: COLORS.text, fontSize: 16, fontWeight: 'bold' },
+  text: { color: '#FFFFFF', fontSize: 16, fontWeight: 'bold' },
 });
